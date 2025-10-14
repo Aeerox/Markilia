@@ -39,7 +39,7 @@ export default function Home() {
     {
       id: 'Social',
       title: 'Socials',
-      description: 'LGBTQ+, Events, Nightlife',
+      description: 'Party, Events, Nightlife',
       color: 'from-pink-500 to-purple-500',
       bgColor: 'from-pink-500/20 to-purple-500/20',
       borderColor: 'border-pink-300/40',
@@ -360,7 +360,7 @@ export default function Home() {
           transition={{ delay: 0.6 }}
         >
           <h3 className="text-2xl font-light mb-6 text-center text-purple-100">
-            💰 Heute's Revenue
+            💰 Heute&apos;s Revenue
           </h3>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="text-center p-4 bg-white/10 rounded-xl">
@@ -386,7 +386,7 @@ export default function Home() {
           transition={{ delay: 0.8 }}
         >
           <h3 className="text-2xl font-light mb-6 text-center text-purple-100">
-            📅 Tabea Salon - Heute's Termine
+            📅 Tabea Salon - Heute&apos;s Termine
           </h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
             {tabeaSalonBookings.map((booking, index) => (
